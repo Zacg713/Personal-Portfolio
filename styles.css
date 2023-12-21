@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     height: 140px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .header li{
@@ -47,6 +47,11 @@ body {
 .header ul {
     padding:0px;
     list-style: none;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 /* Container for page content */
@@ -72,6 +77,9 @@ body {
     line-height: 25px;
     /*Possibly change this later.*/
     text-align: justify;
+
+    /* Add Fade in animation */
+    animation: fadeIn 5s;
 }
 
 .card h1 {
