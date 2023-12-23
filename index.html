@@ -8,22 +8,27 @@
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
     <title>Zachary Graham</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/wicon.webp">
 </head>
 <body>
     <div class="header">
         <h1>Zachary Graham</h1>
         <ul id="nav">
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><button onclick="toggleAboutMe()">About Me</a></li>
+            <li><button onclick="toggleSkills()">Skills</a></li>
+            <li><button onclick="toggleProjects()">Projects</a></li>
+            <li><button onclick="toggleExperience()">Experience</a></li>
+            <li><button onclick="toggleContact()">Contact</a></li>
+            <!-- <li><a href="#aboutme" onclick="toggleAboutMe()">About Me</a></li>
+            <li><a href="#skills" onclick="toggleSkills()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleProjects()">Projects</a></li>
+            <li><a href="#experience" onclick="toggleExperience()">Experience</a></li>
+            <li><a href="#contact" onclick="toggleContact()">Contact</a></li> -->
         </ul>
     </div>
         <div class="container">
-            <div class="card" id="aboutme">
+            <div class="aboutme" id="aboutme">
                 <div id="image-container">
                     <img src="./images/profilepicture.webp" alt="Picture of me!">
                 </div>
@@ -56,7 +61,7 @@
                 </p> -->
             </div>
 
-            <div class="card" id="skills">
+            <div class="skills" id="skills">
                 <h1>Technical Skills</h1>
                 <ul id="skills-list">
                     <li>Java</li>
@@ -70,7 +75,7 @@
                 </ul>
             </div>
 
-            <div class="card" id="projects">
+            <div class="projects" id="projects">
                 <h1>Projects</h1>
                 <div class="project-section">
                     <h3>FitBuddy</h3>
@@ -92,7 +97,7 @@
                 </div>
             </div>
             <!--Reorganize later!-->
-            <div class="card" id="experience">
+            <div class="experience" id="experience">
                 <h1>Experience</h1>
                 <h2>Discount Tire Co.</h2>
                 <h3> (June 2018 - Present)</h3>
@@ -106,13 +111,14 @@
                 </p>
             </div>
 
-            <div class="card" id="contact">
+            <div class="contact" id="contact">
                 <h1>Let's connect!</h1>
                 <div id="contactlinks">
-                    <p><a href="https://www.linkedin.com/in/zachary-graham-944234286/"><img class="contactlogos" src="./images/linkedin.webp" alt="LinkedIn"></a></p>
+                    <p><a href="https://www.linkedin.com/in/zachary-graham-944234286/"><img class="contactlogos" id="linkedin" src="./images/linkedin.webp" alt="LinkedIn"></a></p>
                     <p><a href=mailto:"zacg713@gmail.com"><img class="contactlogos" src="./images/gmail.webp" alt="Mail"></a></p>
                 </div>
             </div>
         </div>
+    <script src="script.js"></script>
 </body>
 </html>
