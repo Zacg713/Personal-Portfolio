@@ -127,6 +127,20 @@ body {
     opacity: 0;
     transition: opacity 1s;
     position: absolute;
+    top: 630px;
+}
+
+.certificates {
+    margin-bottom:64px;
+    background: rgba(51, 49, 49, 0.5);
+    width:70vw;
+    border-radius: 20px;
+    padding:0px 30px 0px 30px;
+    line-height: 25px;
+    text-align: justify;
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
     top: 300px;
 }
 
@@ -164,6 +178,11 @@ body {
 }
 
 .experience h1 {
+    line-height: 30px;
+    text-align: center;
+}
+
+.certificates h1 {
     line-height: 30px;
     text-align: center;
 }

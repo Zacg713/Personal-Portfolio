@@ -3,45 +3,51 @@ const skills = document.getElementById("skills");
 const projects = document.getElementById("projects");
 const experience = document.getElementById("experience");
 const contact = document.getElementById("contact");
+const certificates = document.getElementById("certificates");
 
 aboutme.classList.add("fade-in");
 
 function toggleAboutMe() {
-    aboutme.classList.add("fade-in");
     skills.classList.remove("fade-in");
     projects.classList.remove("fade-in");
     experience.classList.remove("fade-in");
     contact.classList.remove("fade-in");
+    certificates.classList.remove("fade-in");
+    aboutme.classList.add("fade-in");  
 }
 
 function toggleSkills() {
-    skills.classList.add("fade-in");
     aboutme.classList.remove("fade-in");
     projects.classList.remove("fade-in");
     experience.classList.remove("fade-in");
     contact.classList.remove("fade-in");
+    certificates.classList.remove("fade-in");
+    skills.classList.add("fade-in");
 }
 
 function toggleProjects() {
-    projects.classList.add("fade-in");
     aboutme.classList.remove("fade-in");
     skills.classList.remove("fade-in");
     experience.classList.remove("fade-in");
     contact.classList.remove("fade-in");
+    certificates.classList.remove("fade-in");
+    projects.classList.add("fade-in");
 }
 
 function toggleExperience() {
-    experience.classList.add("fade-in");
     aboutme.classList.remove("fade-in");
     skills.classList.remove("fade-in");
     projects.classList.remove("fade-in");
     contact.classList.remove("fade-in");
+    experience.classList.add("fade-in");
+    certificates.classList.add("fade-in");
 }
 
 function toggleContact() {
-    contact.classList.add("fade-in");
     aboutme.classList.remove("fade-in");
     skills.classList.remove("fade-in");
     projects.classList.remove("fade-in");
     experience.classList.remove("fade-in");
+    certificates.classList.remove("fade-in");
+    contact.classList.add("fade-in");
 }
