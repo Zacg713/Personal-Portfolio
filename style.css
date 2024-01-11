@@ -185,12 +185,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 24px;
+    /* padding-top: 24px; */
 }
 
 #image-container img{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 700px;
 }
 
 /* Skills list */
