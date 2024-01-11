@@ -34,11 +34,6 @@ body {
     background: rgba(51, 49, 49, 0.5);
 }
 
-.header li{
-    display: inline-block;
-    padding: 8px 16px;
-}
-
 .header a{
     color: white;
     text-decoration: none;
@@ -47,12 +42,14 @@ body {
 .header button {
     color: white;
     font-size: large;
+    padding: 20px;
     background-color: transparent;
     border: 1px transparent solid; 
 }
 
 .header button:hover {
-    transform: scale(1.1);
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .header ul {
@@ -82,22 +79,20 @@ body {
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: visible;
     position: absolute;
     top: 300px;
 }
 
 .skills {
-    margin-bottom:200px;
+    margin-bottom:64px;
     background: rgba(51, 49, 49, 0.5);
     width:70vw;
     border-radius: 20px;
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: hidden;
     position: absolute;
     top: 300px;
 }
@@ -110,8 +105,7 @@ body {
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: hidden;
     position: absolute;
     top: 205px;
 }
@@ -124,8 +118,7 @@ body {
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: hidden;
     position: absolute;
     top: 630px;
 }
@@ -138,8 +131,7 @@ body {
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: hidden;
     position: absolute;
     top: 300px;
 }
@@ -152,14 +144,9 @@ body {
     padding:0px 30px 0px 30px;
     line-height: 25px;
     text-align: justify;
-    opacity: 0;
-    transition: opacity 1s;
+    visibility: hidden;
     position: absolute;
     top: 300px;
-}
-
-.fade-in {
-    opacity: 1;
 }
 
 .aboutme h1 {
