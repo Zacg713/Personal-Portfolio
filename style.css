@@ -81,7 +81,7 @@ body {
     text-align: justify;
     visibility: visible;
     position: absolute;
-    top: 300px;
+    top: 205px;
 }
 
 .skills {
@@ -120,7 +120,7 @@ body {
     text-align: justify;
     visibility: hidden;
     position: absolute;
-    top: 630px;
+    top: 535px;
 }
 
 .certificates {
@@ -133,7 +133,7 @@ body {
     text-align: justify;
     visibility: hidden;
     position: absolute;
-    top: 300px;
+    top: 205px;
 }
 
 .contact {
@@ -146,7 +146,7 @@ body {
     text-align: justify;
     visibility: hidden;
     position: absolute;
-    top: 300px;
+    top: 205px;
 }
 
 .aboutme h1 {
@@ -204,7 +204,7 @@ body {
 
 #skills-list li {
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0px 2%;
     padding: 8px 16px;
     border: 3px solid;
     border-radius: 15px;
@@ -228,7 +228,7 @@ body {
 
 .project-section img {
     display: block;
-    max-width: 60vw;
+    max-width: 60vh;
     max-height: 60vh;
     height: auto;
     width: auto;
@@ -238,8 +238,8 @@ body {
 
 .column {
     float: left;
-    width: 30.33%;
-    padding: 13px;
+    width: 31%;
+    padding: 1%
 }
   
 /* Clears floats after image containers */
