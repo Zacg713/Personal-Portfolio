@@ -58,6 +58,7 @@
 
   .skills-section {
     background: var(--nav-bg-color-rev);
+    height: 160vh;
     padding-top: 20px;
     color: white;
   }
@@ -77,7 +78,7 @@
     display: grid;
     grid-template-columns: repeat(3,45vh);  /* 3 columns */
     grid-template-rows: repeat(3,10vw); /* 3 rows  */
-    grid-gap: 20vh 1vw;
+    grid-gap: 30vh 1vw;
     justify-items: center;
     justify-content: space-around;
   }

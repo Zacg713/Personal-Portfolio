@@ -77,7 +77,7 @@
     display: grid;
     grid-template-columns: repeat(1,150px);  /* 3 columns */
     grid-template-rows: auto; /* 3 rows  */
-    grid-gap:80px 30px;
+    grid-gap: 20vh 1vw;
     justify-items: center;
     justify-content: space-around;
   }
@@ -121,6 +121,7 @@
   }
   
   .card img {
-    height: 400px;
-    padding: 10px 10px 10px 10px;
+    height: 45vh;
+    width: 45vw;
+    padding: 15px 15px 15px 15px;
   }
