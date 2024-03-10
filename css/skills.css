@@ -99,6 +99,8 @@
   }
   
   .card p {
+    font-size: 25px;
+    padding-top: 20px;
     font-weight: lighter;
   }
   

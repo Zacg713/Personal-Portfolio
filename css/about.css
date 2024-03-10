@@ -9,13 +9,14 @@
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;
       --main-bg-color: #00459f;
-    --main-bg-color2: rgb(29, 29, 29);
-    --nav-bg-color: linear-gradient(to bottom, black, var(--main-bg-color));
-    --nav-bg-color-rev: linear-gradient(to bottom, var(--main-bg-color), rgb(0, 0, 0, 0.5));
-    --sidebar-bg-color: #0077b6;
-    --nav-font-size: 20px;
-    --accent-color: #005ed8;
-    --left-spacing: 45px;
+      --main-bg-color2: rgb(29, 29, 29);
+      --nav-bg-color: linear-gradient(to bottom, black, var(--main-bg-color));
+      --nav-bg-color-rev: linear-gradient(to bottom, var(--main-bg-color), rgb(0, 0, 0, 0.5));
+      --img-border-color: linear-gradient(to right, var(--main-bg-color), white);
+      --sidebar-bg-color: #0077b6;
+      --nav-font-size: 20px;
+      --accent-color: #005ed8;
+      --left-spacing: 45px;
   }
 
  /* Navbar section */
@@ -95,5 +96,5 @@
     border-style: solid;
     border-width: 15px;
     border-radius: 5pc;
-    border-color: var(--nav-bg-color-rev)
+    border-color: black;
   }
