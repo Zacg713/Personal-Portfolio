@@ -28,6 +28,10 @@
     background: var(--nav-bg-color);
   }
   
+  .navbar a {
+    text-decoration: none;
+  }
+  
   .navbar .nav-links {
     margin-right: 40px;
   }
